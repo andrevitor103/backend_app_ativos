@@ -1,0 +1,10 @@
+CREATE TABLE `tb_usuarios` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `datacadastro` datetime DEFAULT current_timestamp(),
+  `email` varchar(100) DEFAULT NULL,
+  `senha` varchar(100) DEFAULT NULL,
+  `ativo` int(11) DEFAULT NULL,
+  `perfil` int(11) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
+
